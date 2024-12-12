@@ -1,10 +1,10 @@
 'use strict';
 
 function handleSuccess() {
-  const ressolveDiv = document.createElement('div');
+  const resolveDiv = document.createElement('div');
 
-  ressolveDiv.className = 'message';
-  ressolveDiv.textContent = 'Promise was resolved!';
+  resolveDiv.className = 'message';
+  resolveDiv.textContent = 'Promise was resolved!';
 }
 
 function handleError() {
